@@ -1,9 +1,9 @@
 #WRITE YOUR CODE IN THIS FILE
 def close10(x, y):
-    if x - y == 0:
-        return abs(x)
-    elif x - y == 10:
+    if abs(10 - x) > abs(10 - y):
+        return y
+    elif abs(10 - x) == abs(10 - y):
         return 0
     else:
-        return abs(y)
+        return x
 print(close10(9, 15 ))
