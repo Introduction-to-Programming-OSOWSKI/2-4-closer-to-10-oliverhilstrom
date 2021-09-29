@@ -1,7 +1,7 @@
 #WRITE YOUR CODE IN THIS FILE
 def close10(x, y):
     if abs(x) < abs(y):
-        return abs()
+        return abs(x)
     else:
-        return abs()
-print(close10(5, 12))
+        return abs(y)
+print(close10(50, 9 ))
